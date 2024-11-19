@@ -1,0 +1,168 @@
+
+
+a {
+  text-decoration: none;
+}
+
+p{
+  margin-bottom: 0rem;
+}
+
+h1{
+  color: white;
+  font-weight: bold;
+}
+.button {
+  width: 50%;
+}
+
+.button:hover{
+  background-color: #f0d479;
+  border-color: #f0d479;
+}
+
+.centerdivs{
+  margin: 0 auto;
+}
+
+#centertext{
+  text-align: center;
+}
+
+.container{
+  margin-top: 20px;
+  padding: 20px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  background-color: rgba(63, 63, 63, 0.85);
+}
+
+.secondary-container{
+  padding: 20px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  background-color: rgba(77, 77, 77, 0.85);
+}
+
+
+.navbar-container{
+  margin-top: 0px;
+}
+
+
+.round{
+  background-color: #fac73a;
+  margin-top: 20px;
+  padding: 10px;
+  padding-bottom: 25px;
+  border-radius: 10px; 
+}
+
+.nav-link{
+  color: black;
+}
+
+.album-section{
+  color: white;
+}
+
+.FixedHeightContainer
+{
+  float:right;
+  height: 628px;
+  width:628px; 
+  padding:10px; 
+}
+
+.Content
+{
+  height:548px;
+  overflow:auto;
+}
+
+.artist-name{
+  color: white;
+  font-size: 15pt;
+}
+
+.album-title{
+  color: white;
+  font-size: 20pt;
+}
+
+.track-div{
+  border-radius: 7.5px;
+  padding: 10px;
+}
+
+.track-div:hover{
+  background-color: rgba(94, 94, 94, 0.85);
+}
+
+.track.d-flex {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  text-align: center;
+  position: sticky;
+  bottom:0;
+  left:0;
+  right:0
+}
+
+.footer-div{
+  background-color: rgba(63, 63, 63, 0.90);
+  border-radius: 7.5px;
+}
+
+.top-buffer{
+  margin-top: 8px;
+}
+
+.cross-font{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.playing {
+  font-weight: bold;
+}
+
+.fa-play{
+  font-size:18px;
+  color:white;
+}
+
+.fa-play:hover{
+  font-size: 24px;
+}
+
+.album-title-play.d-flex{
+display: flex !important;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-right: 19px;
+}
+
+.player-previous-next.d-flex{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group{
+  padding-bottom: 8px;
+}
+
+.form-btn{
+  padding-bottom: 8px;
+}
